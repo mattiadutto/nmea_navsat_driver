@@ -106,7 +106,7 @@ class Ros2NMEADriver(Node):
             # RTK Float
             5: [
                 self.default_epe_quality5,
-                NavSatStatus.STATUS_GBAS_FIX,
+                3, 
                 NavSatFix.COVARIANCE_TYPE_APPROXIMATED
             ],
             # WAAS
